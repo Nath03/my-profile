@@ -9,6 +9,7 @@ body {
 
 h1 {
   font-family: 'gotu', sans-serif;
+  text-align: center;
   color: black;
   font-weight: lighter;
   font-size: 25px;
@@ -17,14 +18,15 @@ h1 {
 h3 {
   font-family: 'gotu', sans-serif;
   text-align: center;
-  color: Black;
+  color: black;
   font-weight: lighter;
-  font-size: 30px;
+  font-size: 50px;
 }
 
 a {
-  color: blue;
+  color: #B2EBF2;
   text-align: center;
+  text-decoration: none;
 }
 
 a:hover {
@@ -46,18 +48,18 @@ a:hover {
 
 #banner h1 {
   font-size: 50px;
-  text-shadow: 3px 3px #F18805;
+  text-shadow: 3px 3px #00BCD4;
 }
 
 #banner p {
   opacity: 0.8;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: lighter;
 }
 
 .btn {
   text-decoration: none;
-  background-color: #F18805;
+  background-color: #CEE397;
   border-radius: 4px;
   box-shadow: 0 4px 6px rgba(50,50,93,.11);
   padding: 15px 20px;
@@ -76,16 +78,15 @@ a:hover {
 
 .cards {
   margin: 15px auto;
+  align-items: center;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 16px;
-  width: 1000px;
-}
-
-@media(max-width: 992px){
-  .cards{
-  width: 750px;
   }
+
+@media(max-width: 720px){
+  .card{
+  grid-template-columns: 1fr
+  }
+}
 
 /*les écrans de largeur inférieure à 768 pixels*/
 @media(max-width: 768px){
