@@ -1,0 +1,104 @@
+body {
+  background: rgb(248,248,248);
+  text-align: center;
+  color: green;
+  margin: 5px;
+  font-size: 25px;
+  font-family: 'gotu', sans-serif;
+}
+
+h1 {
+  font-family: 'gotu', sans-serif;
+  text-align: center;
+  color: black;
+  font-weight: lighter;
+  font-size: 25px;
+}
+
+h3 {
+  font-family: 'gotu', sans-serif;
+  text-align: center;
+  color: black;
+  font-weight: lighter;
+  font-size: 50px;
+}
+
+a {
+  color: #B2EBF2;
+  text-align: center;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: center;
+  color: purple;* Write your CSS here */
+  }
+
+  #banner {
+  text-align: center;
+  background-image: url("https://unsplash.it/1300/600?random");
+  background-size: cover;
+  padding: 150px;
+  color: white;
+}
+
+#banner img {
+  border: 5px solid white;
+}
+
+#banner h1 {
+  font-size: 50px;
+  text-shadow: 3px 3px #00BCD4;
+}
+
+#banner p {
+  opacity: 0.8;
+  font-size: 40px;
+  font-weight: lighter;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: #CEE397;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 15px 20px;
+}
+
+.btn:hover {
+  background-color: #613F75;
+  opacity: 0.8;
+  border: 2px solid white;
+}
+
+.card {
+  padding: 50px;
+  font-weight: lighter;
+}
+
+.cards {
+  margin: 15px auto;
+  align-items: center;
+  display: grid;
+  }
+
+@media(max-width: 720px){
+  .card{
+  grid-template-columns: 1fr
+  }
+}
+
+/*les écrans de largeur inférieure à 768 pixels*/
+@media(max-width: 768px){
+  .cards{
+  width: 90%;
+  grid-template-columns: 1fr;
+ 
+}
+
+#footer {
+  margin-top: 15px;
+  padding: 10px 30px;
+  background: rgb(30, 30, 30);
+  color: lightgrey;
+}
